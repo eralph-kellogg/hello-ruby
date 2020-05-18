@@ -21,3 +21,11 @@
 # To rectify this, you can use "string interpolation":
 # "i would like #{5} tacos"
 
+Die1=rand(1..6)
+Die2=rand(1..6)
+SumDie=Die1+Die2
+
+puts "Die1 is #{Die1}"
+puts "Die2 is #{Die2}"
+puts "Sum of dice is #{SumDie}"
+

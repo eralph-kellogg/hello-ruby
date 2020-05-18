@@ -15,3 +15,7 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+YourList=["milk", "eggs", "bacon", "apples"]
+FriendList=["beer", "cookies", "apples"]
+CombinedList=YourList + FriendList
+puts CombinedList.uniq.sort
